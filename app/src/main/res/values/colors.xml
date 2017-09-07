@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42a5f6</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorEditTextHint">#757575</color>
+    <color name="colorAccent">#dd2c02</color>
+    <color name="colorBgSplash">#E1F5FE</color>
+    <color name="colorBgRegLog">#E1F5FE</color>
+    <color name="colorAppNameSplash">#01579B</color>
+    <color name="colorLogRegBtn">#42a5f6</color>
+    <color name="colorLogRegBtnPressed">#01579B</color>
+    <color name="colorRegBtnText">#FFFFFF</color>
+
+    <color name="colorToolbarText">#FFFFFF</color>
+    <color name="nav_drawer_background">#E1F5FE</color>
+    <color name="color_drawer_arrow_toggle">#FFFFFF</color>
+    <color name="color_menu_item_text">#FF9E9E9E</color>
+
+    <color name="color_track_item_distance">#42a5f6</color>
+
+    <color name="run_timer_text">#424242</color>
+    <color name="run_distance_text">#424242</color>
+
+    <color name="selected_overlay">#6442a4f5</color>
+    <color name="btn_exit_text_color">#424242</color>
+    <color name="btn_exit_text_bg">#00FFFFFF</color>
+    <color name="btn_change_screen_text">#424242</color>
+    <color name="btn_change_screen_bg">#00FFFFFF</color>
+</resources>

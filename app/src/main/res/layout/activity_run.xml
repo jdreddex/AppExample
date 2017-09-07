@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.RunActivity"
+    android:id="@+id/fragment_run">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:id="@+id/run_screen_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="@dimen/run_btn_start_text"
+            android:text="@string/run_btn_start"
+            android:textColor="@color/colorRegBtnText"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="@dimen/register_btn_margin_top" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/run_screen_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:orientation="horizontal">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/run_timer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="42dp"
+                android:textColor="@color/run_timer_text" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/finish_btn"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/run_btn_finish"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorRegBtnText"
+                android:textSize="@dimen/run_btn_finish_text"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:backgroundTint="@color/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/run_screen_3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/run_timer_result"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="42dp"
+                android:textColor="@color/run_timer_text"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/run_distance"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:textColor="@color/run_distance_text"
+                android:textSize="@dimen/run_btn_finish_text"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:backgroundTint="@color/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

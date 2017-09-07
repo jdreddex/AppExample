@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Fitness for runners</string>
+    <string name="register_email">Email</string>
+    <string name="register_first_name">Имя</string>
+    <string name="register_last_name">Фамилия</string>
+    <string name="register_pass">Пароль</string>
+    <string name="register_pass_repeat">Повторите пароль</string>
+    <string name="register_btn">Регистрация</string>
+    <string name="register_btn_login">Вход</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_pass">Пароль</string>
+    <string name="login_btn">Вход</string>
+    <string name="login_btn_register">Регистрация</string>
+
+    <string name="run_btn_start">Старт</string>
+    <string name="run_btn_finish">Финиш</string>
+
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+
+    <string name="run_time">Время пробежки</string>
+    <string name="start_time">Время старта</string>
+
+    <string-array name="pages">
+        <item>Главный экран</item>
+        <item>Избранное</item>
+        <item>Напоминания</item>
+        <item>Выход</item>
+    </string-array>
+
+    <string name="title_track">Главный экран</string>
+    <string name="title_notification">Напоминания</string>
+    <string name="title_run">Пробежка</string>
+    <string name="title_track_fragment">Трек</string>
+    <string name="title_track_favorite">Избранное</string>
+
+    <string name="full_distance_run">Дистанция: %.3f</string>
+    <string name="synchronization">Синхронизация запущена</string>
+    <string name="synchronization_finished">Синхронизация завершена</string>
+    <string name="track_saved">Пробежка загружена на сервер.</string>
+    <string name="no_internet_long">Отсутствует интернет соединение, данные пробежки не были записаны на сервер.</string>
+    <string name="btn_ok">Ок</string>
+    <string name="close_message">Закрыть</string>
+
+    <string name="delete_btn">Удалить</string>
+    <string name="edit_btn">Изменить</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="title_new_notification">Новое напоминание</string>
+    <string name="reminder">Напоминание</string>
+
+    <string name="date">dd/mm/yy</string>
+    <string name="time">hh:mm</string>
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="start_marker">Старт</string>
+    <string name="finish_marker">Финиш</string>
+
+
+
+    <string name="location_service_notification_title">Fitness for runners</string>
+    <string name="location_service_notification_text">Пробежка запущена!</string>
+
+    <string name="synchronize_service_notification_title">Fitness for runners</string>
+    <string name="synchronize_service_notification_text">Синхронирация треков запущена!</string>
+
+    <string name="toast_save_notification">Напоминание сохранено!</string>
+    <string name="toast_delete_notification">Напоминание удалено!</string>
+    <string name="kilometers">км</string>
+    <string name="run_finished">Пробежка закончена</string>
+    <string name="run_started">Пробежка запущена</string>
+    <string name="toast_run_back_press">Сначала нажмите "ФИНИШ"</string>
+    <string name="notification_select_title">Напоминание выделено</string>
+
+    <string name="notification_show_title">Fitness for run</string>
+    <string name="notification_show_text">Пора бегать!</string>
+
+    //TODO REGISTER
+    <string name="field_empty">Это поле обязательное!</string>
+
+    <string name="error_short">%1$s состоит как минимум из %2$d символов.</string>
+    <string name="error_pass_check">Пароли не совпадают</string>
+
+    <string name="pass_field_empty">Введите пароль</string>
+    <string name="email_empty">Пустой e-mail!</string>
+    <string name="wrong_email">Неправильный e-mail!</string>
+    <string name="password">Пароль</string>
+    <string name="loading">Данные загружаются с сервера.</string>
+</resources>

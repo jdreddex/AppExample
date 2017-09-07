@@ -1,0 +1,32 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="LogRegActivity" parent="AppTheme">
+    </style>
+
+    <style name="MainActivity" parent="AppTheme">
+    </style>
+
+    <style name="RunActivity" parent="AppTheme">
+    </style>
+
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorEditTextHint</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/color_drawer_arrow_toggle</item>
+        <item name="spinBars">true</item>
+    </style>
+</resources>
